@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Decryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WannaTry\FileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WannaTry\WanaDecryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WannaTry\WanaEncryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WannaTry\WanaZip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\socktool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ezfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EZCrypt\EZAES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EZCrypt\EZRSA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EZCrypt\EZRC4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EZCrypt\Keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WannaTry\WanaProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\hexdump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Decryptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WannaTry\FileList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WannaTry\WanaDecryptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WannaTry\WanaEncryptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WannaTry\WanaZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\socktool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ezfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EZCrypt\EZAES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EZCrypt\EZRSA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EZCrypt\EZRC4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EZCrypt\PubKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WannaTry\WanaProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\hexdump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Decryptor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Decryptor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WanaDecryptor\Bitmap\136_1033.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WanaDecryptor\Bitmap\135_1033.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WanaDecryptor\Bitmap\b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WanaDecryptor\Bitmap\petya-1280x720.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="msg\m_bulgarian.wnry" />
+    <None Include="msg\m_chinese_simplified.wnry" />
+    <None Include="msg\m_chinese_traditional.wnry" />
+    <None Include="msg\m_croatian.wnry" />
+    <None Include="msg\m_czech.wnry" />
+    <None Include="msg\m_danish.wnry" />
+    <None Include="msg\m_dutch.wnry" />
+    <None Include="msg\m_english.wnry" />
+    <None Include="msg\m_filipino.wnry" />
+    <None Include="msg\m_finnish.wnry" />
+    <None Include="msg\m_french.wnry" />
+    <None Include="msg\m_german.wnry" />
+    <None Include="msg\m_greek.wnry" />
+    <None Include="msg\m_indonesian.wnry" />
+    <None Include="msg\m_italian.wnry" />
+    <None Include="msg\m_japanese.wnry" />
+    <None Include="msg\m_korean.wnry" />
+    <None Include="msg\m_latvian.wnry" />
+    <None Include="msg\m_norwegian.wnry" />
+    <None Include="msg\m_polish.wnry" />
+    <None Include="msg\m_portuguese.wnry" />
+    <None Include="msg\m_romanian.wnry" />
+    <None Include="msg\m_russian.wnry" />
+    <None Include="msg\m_slovak.wnry" />
+    <None Include="msg\m_spanish.wnry" />
+    <None Include="msg\m_swedish.wnry" />
+    <None Include="msg\m_turkish.wnry" />
+    <None Include="msg\m_vietnamese.wnry" />
+  </ItemGroup>
+</Project>
